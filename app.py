@@ -353,7 +353,7 @@ def main():
     col1, col2 = st.columns([2, 1])
     
     with col1:
-        uploaded_file = st.file_uploader("Перетащите Excel файл (.xls, .xlsx)", type=['xls', 'xlsx', 'xlsm'])
+        uploaded_file = st.file_uploader("Перетащите Excel файл (.xlsx)", type=['xls', 'xlsx', 'xlsm'])
     
     with col2:
         uploaded_logo = st.file_uploader("Логотип (необязательно)", type=['png', 'jpg', 'jpeg'])
